@@ -1,0 +1,11 @@
+HoloMechanics/
+├── app.py
+├── templates/
+│   ├── index.html
+│   ├── login.html
+│   ├── dashboard.html
+│   ├── request_service.html
+├── static/
+│   └── style.css
+├── models.db
+└── README.md

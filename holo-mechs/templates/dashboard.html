@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+  <h2>Dashboard</h2>
+  <p>Welcome to HoloMechanics dashboard.</p>
+  <a href="{{ url_for('request_service') }}" class="btn btn-success">Request a Service</a>
+{% endblock %}

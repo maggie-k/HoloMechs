@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Request Service{% endblock %}
+
+{% block content %}
+  <h2>Request a Service</h2>
+  <form method="POST" class="mt-4">
+    <div class="mb-3">
+      <label for="service_type" class="form-label">Service Type</label>
+      <select id="service_type" name="service_type" class="form-select" required>
+        <option value="">Select a service</option>
+        <option value="Repair & Maintenance">Repair & Maintenance</option>
+        <option value="Car Wash">Car Wash</option>
+        <option value="Insurance">Insurance</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit Request</button>
+  </form>
+{% endblock %}
