@@ -1,4 +1,4 @@
-A prototype of an automotive aftermarket service platform.
+Automotive aftermarket service platform.
 
 Features:
 Simple homepage for users
